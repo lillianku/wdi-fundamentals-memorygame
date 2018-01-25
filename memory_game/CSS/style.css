@@ -31,6 +31,12 @@ a {
   font-size: 18px;
   padding: 0 20px;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+/*shows underline when hover over link*/
+a:hover {
+  border-color: white;
 }
 
 main{
@@ -47,11 +53,45 @@ h2{
 }
 
 p{
-font-family: "Droid Serif", serif;
-line-height: 26px;
-font-size: 18px;
+  font-family: "Droid Serif", serif;
+  line-height: 26px;
+  font-size: 18px;
 }
 
 img{
   margin: 40px 8px;
+}
+
+footer{
+  text-transform: uppercase;
+  padding: 0 20px;
+  background: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+.copyright{
+  font-family: "Raleway", sans-serif;
+  float: left;
+}
+
+.message{
+  font-family: "Raleway", sans-serif;
+  float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name{
+  color: #F15B31;
+  font-weight: 700;
 }
