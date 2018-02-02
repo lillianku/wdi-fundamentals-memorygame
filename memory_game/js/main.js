@@ -27,7 +27,7 @@ var checkForMatch = function(){
     alert("You found a match!");
   } else{
     alert("Sorry, try again.");
-  }s
+  }
 };
 
 var flipCard = function(cardId){
